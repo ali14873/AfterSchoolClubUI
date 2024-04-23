@@ -1,0 +1,163 @@
+.border-color{
+
+    border-bottom: 1.5px solid  #8E8E8E !important;
+ 
+
+}
+
+.formchild{
+    margin-top: 5rem ;
+}
+
+.label{
+    color: #8E8E8E;
+    
+}
+
+.dob{
+
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+
+select,option{
+    color: #8E8E8E ;
+
+    padding-top: 30px  !important;
+
+    padding-left: 14px !important;
+}
+
+select option:checked {
+    color: #8E8E8E ; 
+}
+
+.date{
+    padding-left: 13px !important;
+}
+
+.btn-white{
+    background-color: white;
+
+    color: black;
+}
+
+
+.upload{
+    border: 2px dashed #8E8E8E; 
+}
+
+@media (max-width:700px){
+
+    .upload{
+        width: 95% !important;
+    }
+
+    .textupload{
+        width: 95% !important ;
+    }
+
+
+
+}
+
+th, table{
+    color: #B5B7C0 !important;
+
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+    
+
+}
+
+td{
+    padding-top: 20px !important;
+
+    color: #292D32 !important;
+
+}
+
+th,td{
+
+    text-wrap: nowrap;
+}
+
+@media (max-width:992px)
+{
+    .mobile{
+        width: 100% !important;
+        margin-inline: 0 !important;
+        padding-inline: 10px;
+    }
+
+    .topcontent{
+        width: 100% !important;
+    }
+
+   .border-end{
+    border: 0px !important;
+
+   }
+}
+
+
+
+.borderend{
+    border-left: 0px !important;
+
+}
+
+.maintop{
+
+    margin-top: 85px ;
+    
+}
+
+
+
+
+
+
+body{
+    box-sizing: border-box !important;
+}
+
+.bordercard{
+    border-left: 0px ;
+    border-right: 0px;
+    border-top: 1px solid #B5B7C0 !important;
+    border-bottom: 1px solid #B5B7C0 !important;
+border-radius: 0px;
+}
+
+.clubbody{
+    justify-content: start !important;
+}
+
+.noborderbottom{
+    border-bottom: 0px !important;
+}
+
+.nobordertop{
+    border-top: 0px !important;
+    border-left: 0px ;
+    border-right: 0px;
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+
+.hidescroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.bi-heart-fill{
+    cursor: pointer;
+}

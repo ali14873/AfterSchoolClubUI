@@ -1,0 +1,611 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center !important;
+  
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+
+
+}
+
+.signup{
+  background: #344573;
+
+  
+}
+
+.text-top
+{
+  font-weight: 500;
+
+
+}
+
+a{
+  cursor: pointer;
+}
+
+
+.login{
+  color: #648DFD;
+
+}
+
+.line{
+
+  height:2px;
+
+  margin-inline: 5px;
+
+  width: 100%;
+  background-color: #9E9A9A !important;
+}
+
+.white{
+
+  
+  background-color: white;
+  color: black;
+}
+
+.icon{
+
+  margin-right: 20px;
+
+
+
+
+}
+
+.trial{
+  color: #4E4E4ECC;
+  font-weight: 500;
+
+}
+
+input{
+  border-color:  #7B7878CC;
+}
+.already-text{
+
+  color: #717171;
+  line-height: 20.23px ;
+
+  font-weight: 400;
+
+
+}
+
+p{
+  color:#717171;
+}
+
+label{
+  color:#717171;
+}
+
+@media (max-width:1000px)
+{
+  form{
+    width: 95% !important;
+  }
+}
+
+
+.navbarnone{
+  display: none !important;
+}
+
+
+
+.mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-text {
+  height: 9.8em !important ;
+
+  line-height: 1.8em;
+  margin: 0 0.5em 0.2em 0.6em;
+}
+
+.mbsc-ios.mbsc-calendar-width-md  {
+
+  line-height: 1.8em;
+  margin: 0 0.5em 0.2em 0.6em;
+}
+
+.mbsc-calendar-label-wrapper {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+
+  padding-inline: 0px !important;
+  border: 2px solid red !important;
+
+  border-radius: 6px ;
+
+} 
+
+
+.mbsc-flex, .mbsc-flex-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.mbsc-ios.mbsc-calendar-width-md {
+  line-height: 1.8em;
+  margin: 0px !important;
+}
+
+.mbsc-ios.mbsc-eventcalendar .mbsc-calendar-header, .mbsc-ios.mbsc-eventcalendar .mbsc-calendar-week-days {
+  background: white !important;
+  border: 2px solid #F5F6F7 !important;
+
+
+}
+
+.mbsc-ios.mbsc-calendar-cell {
+  background: #fff;
+  border-color:#F5F6F7   !important;
+  color: #000;
+}
+
+.mbsc-calendar-day-inner {
+  border: 1px solid #F5F6F7 !important;
+  
+}
+
+.buttonsrounded{
+  border-radius: 20px !important;
+
+  border: 2px solid #F5F6F7;
+
+  padding: 0 !important;
+ margin: 0 !important;
+
+}
+
+.weekly{
+  border-right: 2px solid #F5F6F7  !important;
+padding: 0 !important;
+
+border-radius: 0px !important;
+padding-inline: 10px !important;
+margin: 0px !important;
+
+color: #ADB8CC !important;
+ 
+
+}
+
+
+.last{
+  border-right: 0px solid #F5F6F7 !important;
+
+}
+
+.today{
+  border: 2px solid #F5F6F7 !important;
+  border-radius: 20px !important;
+  color:  #6B7A99 !important;
+  font-weight: bold !important;
+
+ 
+
+}
+.mbsc-ios.mbsc-button {
+  border-radius: 0.25em;
+  line-height:auto !important;
+  margin: 0.5em 0.25em;
+  padding: 0 0.5em;
+  transition: opacity .1s ease-out, background-color .1s ease-out;
+}
+
+.mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-text {
+  height: 9.8em !important;
+  line-height: 1.8em;
+  margin: 0px !important;
+  /* border-radius: 20px !important; */
+}
+
+@media (min-width:768px) {
+  .con{
+      margin-left: 12.5rem !important;
+  
+  }
+
+  
+
+ 
+}
+
+@media (max-width:740px ){
+  .mbsc-flex{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.md-custom-header-view{
+  margin-inline: auto !important;
+
+}
+}
+
+
+.headerdate{
+  font-size: 12px !important;
+}
+
+.flexx{
+  display: flex !important;
+  align-items: center !important;
+}
+
+
+.active
+ {
+    color:  #6B7A99 !important; 
+    font-weight: bold !important;
+
+}
+
+
+
+.mbsc-calendar-label{
+
+  border: 2px solid red !important ;
+  border-radius: 6px ;
+
+
+}
+
+.mbsc-calendar-label-wrapper {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+
+  padding-inline: 0px !important;
+  border: 1px solid red !important;
+
+  border-radius: 6px ;
+
+} 
+
+.md-custom-header-button , .mbsc-calendar-title{
+  color:#6B7A99 !important;
+  font-weight: bold !important;
+  
+}
+
+.mbsc-calendar-week-day{
+  color:#6B7A99 !important;
+  font-weight: bold !important;
+}
+
+.md-custom-header-button
+{
+  border: 2px solid #F5F6F7 !important
+}
+
+
+
+
+.attendee-status {
+
+  margin-bottom: 15px;
+
+}
+
+.attendee-name {
+  flex: 1;
+  margin-right: 15px;
+  margin:3px ;
+
+  font-weight: bold;
+
+}
+
+.selectcomplete
+{
+
+  margin-top: 4px;
+  padding-top: 10px !important;
+}
+
+
+
+.progress-container {
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  padding: 20px;
+
+  margin-top: 50px;
+}
+
+
+.chart-item {
+ 
+  border-radius: 20px;
+  
+  margin-bottom: 20px;
+
+}
+
+.chart-item h3 {
+  margin-top: 0;
+}
+
+
+.item2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.chartsb1{
+  padding: 20px;
+  height: 20%;
+  width: 46%;
+  border-radius: 20px;
+}
+
+.linechart{
+  width: 100%;
+    padding: 20px;
+
+}
+
+@media (max-width:600px)
+{
+  .item2{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .linechart{
+    width: auto;
+      padding: 10px;
+  
+  }
+
+  .chartsb1{
+    padding: 30px;
+    width:100%;
+
+    border-radius: 20px;
+
+  }
+
+  .pie{
+    margin-top:20px ;
+  }
+}
+
+
+.cardd {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  border-color: white !important;
+}
+
+.card-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub-card {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.sub-card-image {
+  width: 20%;
+  border-radius: 8px;
+}
+
+.sub-card-info {
+  padding: 10px;
+  /* display: flex; */
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+
+.sub-card-name {
+  margin-top: 0;
+}
+
+.sub-card-date {
+  margin-bottom: 0;
+}
+
+.progresses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+
+  background-color: white;
+
+}
+
+.progress {
+  height: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+
+.textcode
+{
+  color: #67686C;
+
+}
+
+body.dark{
+background-color: #454545 !important;
+color: white !important;
+  
+
+}
+
+body.dark *:not(input):not(label) {
+  background-color: #454545 !important;
+}
+
+
+
+body.dark *{
+   color: white !important;
+}
+
+
+body.dark .navbar{
+  box-shadow: 5px 5px 5px black;
+}
+
+body.dark input{
+  background-color: #454545 !important;
+  color: white !important;
+}
+
+
+body.dark label::after{
+  background-color: #454545 !important;
+
+  color: white !important;
+
+}
+body.dark label{
+  color: white !important;
+
+}
+
+
+body.dark .darkmap * {
+  background-color: initial !important; /* Reset background color for all direct children of .darkmap */
+}
+
+
+body.dark .navbar-toggler{
+  background-color: #454545 !important;
+
+margin-bottom: 5px !important;
+}
+
+body.dark .navbar-toggler-icon{
+  color: white !important;
+  background-color: white !important;
+
+
+}
+
+body.dark .mbsc-calendar-month-title{
+  color: white !important;
+
+}
+
+
+body.dark input[type="text"][placeholder="Search"]:focus {
+
+  color: white !important;
+
+}
+
+body.dark .mbsc-ios.mbsc-button {
+  border-radius: 30px !important;
+  line-height: 2.25em;
+  margin: .5em .25em;
+  padding: 0 .5em;
+  transition: opacity .1s ease-out, background-color .1s ease-out;
+}
+
+body.dark .fields::placeholder{
+  color: white ;
+}
+
+
+body.dark .form-control[placeholder="Search"]::placeholder {
+  color: white;
+}
+
+@media (max-width:720px )
+{
+  .formprofile{
+    width: 95% !important;
+  }
+
+  .headerprofilepage{
+    justify-content: space-around !important;
+    
+  }
+}
+
+@media (min-width:721px)
+{
+
+  .headerprofilepage{
+    margin-left: 25.5%;
+  }
+}
+
+.btnprofile{
+  margin-top: 5px;
+  background: hsla(217, 100%, 50%, 1) !important;
+
+  background: linear-gradient(360deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%) !important; 
+  
+  background: -moz-linear-gradient(360deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%) !important;
+  
+  background: -webkit-linear-gradient(360deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%) !important;
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 ) !important;
+
+
+}
+
+
+
+
+
+
